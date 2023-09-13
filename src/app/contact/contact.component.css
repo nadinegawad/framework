@@ -1,0 +1,14 @@
+.btn-color{
+    background-color: var(--main-color);
+}
+.header{
+    color: var(--sec-color);
+}
+.line2{
+    background-color:var(--sec-color);
+    width: 80px;
+    height: 4px;
+}
+i{
+    color:var(--sec-color);
+}

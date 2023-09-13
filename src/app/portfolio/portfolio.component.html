@@ -1,0 +1,24 @@
+<section class="portfolio">
+  <div class="container-fluid p-5">
+    <div class="row text-center g-4 p-5">
+      <h2 class="header fs-1">PORTFOLIO COMPONENT</h2>
+      <div class="d-flex justify-content-center align-items-center my-3">
+        <div class="line2"></div>
+        <i class="fa-solid fa-star mx-3"></i>
+        <div class="line2"></div>
+      </div>
+
+      <div class="col-md-4" *ngFor="let image of imagesArr">
+        <div class="position-relative">
+          <img class="w-100 rounded-3" [src]="image" alt="" />
+          <div
+            class="layer h-100 start-0 top-0 w-100 position-absolute d-flex justify-content-center align-items-center rounded-3"
+          >
+            <i class="text-white fa-solid fa-plus fa-6x"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>

@@ -1,0 +1,23 @@
+
+.header{
+    color: var(--sec-color);
+}
+.line2{
+    background-color:var(--sec-color);
+    width: 80px;
+    height: 4px;
+}
+i{
+    color:var(--sec-color);
+}
+img,.layer{
+    cursor: pointer;
+}
+.layer{
+    background-color: var(--main-color);
+    opacity: 0;
+transition: .6s;
+}
+.col-md-4:hover .layer{
+    opacity: .9;
+}

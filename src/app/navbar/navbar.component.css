@@ -1,0 +1,15 @@
+.navbar.navbar-expand-lg{
+    background-color: var(--sec-color);
+}
+a{
+    color:var(--font-color);
+    font-weight: 600;
+    
+}
+.brand-name{
+    font-weight: 700;
+}
+a.active-style{
+    background-color: var(--main-color);
+    border-radius: .5rem;
+}
